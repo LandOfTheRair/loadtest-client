@@ -1,0 +1,16 @@
+{
+  "name": "loadtest-client",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node -r @swc-node/register src/index.ts"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.10.9",
+    "@types/ws": "^8.5.12",
+    "ts-node": "^10.9.2"
+  }
+}
